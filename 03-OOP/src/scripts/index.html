@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First SB Savings</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>First SB Savings</title>
+</head>
+<body>
+    <div class = "topHeader">
+    <h1>Welcome to First SB Savings</h1>
+    </div>
+    <div class ="leftSide">
+        <h2>New Accounts</h2>
+
+        <div id= "idAcctTransActn">
+        <h3>Deposits and Withdrawals</h3>        
+
+        <div id= "idAcctActn">
+            <input id = "idNewAcct" type = "text" placeholder="enter name">
+            <input id ="idOpenBalance" type ="number" placeholder ="enter opening balance">
+            <button id = "idCreateAcct">Create Account</button>
+            <br>
+            <br>
+            <button id = "idDeposit">Deposit</button>
+            <button id = "idWithdraw">Withdraw</button>
+            <button id = "idDelete">Delete Account</button>
+            <br>
+
+        </div> 
+        </div> 
+        <br>
+        <br>        
+        <h3>Account Balances:</h3>
+        <input id= "idNewAcct2" input type = "text" placeholder="enter name">
+        <button>Lookup Account</button>
+        <h4>Account Balance:</h4> <input type ="text" id= "idDisplay" readonly>       
+            </div>
+        
+        </div>
+
+    </div>
+
+    <div class = "rightSide">
+        <h2>Today's Account Information at a Glance
+            <br>
+            <button id = "idAllAccts">Display</button> <br>
+            <br>
+            <button id= "idLargest">Largest</button>   
+            <button id="idSmallest">Smallest</button> 
+            <button id = "idTotal">Total</button>  
+            <p id= "output"></p>  
+        </h2>   
+                     
+        <h4>Current Foreign Exchange Rates</h4>
+            <p>1 USD = 1.41 CAD</p>
+            <p>1 EUR = 1.52 CAD</p>
+            <p>1 AUD = 0.85 CAD</p>
+
+    </div>
+<script src ="./index.js" type = "module"></script>
+</body>
+</html>

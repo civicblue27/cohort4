@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.crdsCont {
+    border: solid;
+    text-align: center;
+    background-color: lightblue;
+    width: 98vw;
+    height:700px;
+    margin: auto;  
+    padding-top: 10px;    
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+/* .inside {
+    width: 40vw;
+    height: 40vh;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+.leftSide {
+    float: left;
+    background: lightgrey;
+    width: 45vw;
+    height: 500px;
+    border: solid yellow;
+}
+
+.rightSide {
+    float: right;
+    background: lightgrey;
+    width: 45vw;
+    height: 500px;
+    border: solid black;
+}
+
+
+.newCard {
+    border: solid blue;
+    background-color: lightgrey;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+}

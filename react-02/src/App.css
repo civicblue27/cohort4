@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.canada {
+  height: 15vmin;
+  transition: all 3s;
+  transform-origin: 50% 50%;
+  background-color: silver;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {  
+    animation: App-logo-spin infinite 20s linear;
+    }
+
+  .App-logo-reverse {
+      animation: App-logo-spin reverse infinite 10s linear;
+    }
+
+  .canada-reverse {
+      animation: App-logo-spin reverse infinite 10s linear;
+    }
+    
+  .canada {  
+    animation: App-logo-spin2 infinite 40s linear;
+      }
+  }
+
+.canada {
+  height: 10vmin;
+  transition: all 3s;
+}
+
+
+/* .canada {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: red
+} */
+
+.canada {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
